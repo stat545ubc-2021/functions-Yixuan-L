@@ -1,7 +1,7 @@
 
 # STAT 545B Assignments
 
-## Folders/files in the repository
+## Folders/ Files in the repository
 - `README.md` Project introduction & how-to instructions
 - `a1 folder` Folder for a1 assignment
   - `assignment - 1.Rmd` source code with rmd format for assignment1
