@@ -5,6 +5,7 @@
 #' @param column The numeric column for computing summary statistics.
 #' @import dplyr tibble datateachr
 #' @return A tibble of the summary statistics.
+#' @importFrom stats median sd
 #' @export
 #'
 #' @examples
