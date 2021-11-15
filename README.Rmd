@@ -26,20 +26,14 @@ The goal of this package is to summarize statistics including mean, minimum, max
 You can install the released version of the package for function `summarize_stat` from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-devtools::install_github("https://github.com/stat545ubc-2021/functions-Yixuan-L.git")
+devtools::install_github("https://github.com/stat545ubc-2021/functions-Yixuan-L.git", ref = "0.1.0")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("stat545ubc-2021/functions-Yixuan-L")
-```
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-```r
+```{r}
 suppressPackageStartupMessages(library(newpkg))
 summarize_stat(datateachr::apt_buildings, property_type, no_of_storeys)
 ```
@@ -49,4 +43,4 @@ You can preview the help file of function `summarize_stat` by:
 ?summarize_stat
 ```
 
-```
+
