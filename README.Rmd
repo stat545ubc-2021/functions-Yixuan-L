@@ -44,10 +44,6 @@ suppressPackageStartupMessages(library(newpkg))
 summarize_stat(datateachr::apt_buildings, property_type, no_of_storeys)
 ```
 
-The package offers 3 basic test cases, and you can fetch them in the `tests` folder and test them by:
-```r
-test()
-```
 You can preview the help file of function `summarize_stat` by:
 ```r
 ?summarize_stat
