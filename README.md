@@ -23,7 +23,7 @@ And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/functions-Yixuan-L")
+devtools::install_github("stat545ubc-2021/functions-Yixuan-L", ref = "v0.1.0")
 ```
 
 ## Example
@@ -41,4 +41,4 @@ You can preview the help file of function `summarize_stat` by:
 ?summarize_stat
 ```
 
-\`\`\`
+
