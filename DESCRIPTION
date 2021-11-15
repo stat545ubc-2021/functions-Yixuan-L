@@ -1,0 +1,18 @@
+Package: newpkg
+Title: Summarize Statistics of Variables
+Version: 0.1.0
+Authors@R: 
+    person(given = "Yixuan",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "liyixuan417@gmail.com")
+Description: Convenience function to summarize statistics (mean, lowest, highest, std, median) of a numeric column grouped by a category column in a dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: datateachr, dplyr, tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
